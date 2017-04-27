@@ -1,0 +1,31 @@
+header {
+    background: silver;
+    display: flex;
+    height: 8em;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header img {
+    display: block;
+    flex: 1;
+    max-width: 100%;
+}
+nav {
+    flex: 1;
+    background: red;
+    display: block;
+}
+nav a {
+    display: inline-block;
+    padding: 1em;
+    background-color: green;
+}
+.main-abovethefold {
+    height: 10em;
+    background-color: blue;
+    text-align: center;
+}
+.main-abovethefold h1{
+    margin-top: 100px;
+}

@@ -34,8 +34,11 @@ button {
     max-height: 20%;
     background-color: #193694;
 }
-
-#bottom-section {
+#atf-bottom div{
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-section div{
     background-color: #193694;
-
+    display: inline-block;
 }
